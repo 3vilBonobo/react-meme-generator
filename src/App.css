@@ -5,11 +5,13 @@
 }
 
 body {
+  position: relative;
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: rgb(245, 245, 245);
 }
 
@@ -105,4 +107,32 @@ body {
   border-color: transparent;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.meme-section {
+  position: relative;
+  margin-top: 20px;
+}
+
+.meme-image {
+  width: 100%;
+}
+.memeText {
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Impact, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-shadow: 2px 0px 2px rgba(0, 0, 0, 1), 0px -2px 2px rgba(0, 0, 0, 1),
+    -2px 0px 2px rgba(0, 0, 0, 1), 0px 2px 2px rgba(0, 0, 0, 1);
+}
+.meme-topText {
+  top: 20px;
+}
+.meme-bottomText {
+  bottom: 20px;
 }

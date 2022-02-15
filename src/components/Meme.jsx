@@ -58,10 +58,10 @@ const Meme = () => {
           Get a new meme image 🖼
         </button>
       </div>
-      <div className="meme">
+      <div className="meme-section">
         <img className="meme-image" src={meme.randomImage} alt="meme image" />
-        <h2 className="meme-topText">{meme.topText}</h2>
-        <h2 className="meme-bottomText">{meme.bottomText}</h2>
+        <h2 className="meme-topText memeText">{meme.topText}</h2>
+        <h2 className="meme-bottomText memeText">{meme.bottomText}</h2>
       </div>
     </main>
   );
