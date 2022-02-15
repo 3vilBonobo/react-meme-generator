@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 const Meme = () => {
   const [meme, setMeme] = useState({
-    topText: '',
-    bottomText: '',
+    topText: 'one does not simply',
+    bottomText: 'make a react meme generator',
     randomImage: 'http://i.imgflip.com/1bij.jpg',
   });
 
